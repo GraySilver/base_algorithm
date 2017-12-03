@@ -1,16 +1,15 @@
 #include <iostream>
 #include <vector>
 #include "algo/binarySearch.h"
+#include "algo/digitCounts.h"
 
 using namespace std;
 
 
 int main() {
-    binarySearch b;
-    vector<int> list = {2,2,3,4,5,6,8,13,17,18};
-    int index = b.binarysearch(list,17);
-    cout<<index<<endl;
 
-
+    digitCounts d;
+    int a = d.digitcounts(0,19);
+    cout<<a<<endl;
     return 0;
 }
